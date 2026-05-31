@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Tokenmaxxing — Share Card</title>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;1,6..72,400;1,6..72,500&family=IBM+Plex+Mono:wght@400;500;600;700&display=swap" rel="stylesheet" />
+<style>
+  :root {
+    --ink: #090C11;
+    --ink-2: #0C1118;
+    --panel: #0B0F15;
+    --paper: #F1EEE6;
+    --paper-dim: #C7C3B8;
+    --cyan: #25E6D2;          /* Registry Cyan */
+    --red: #FF3A52;           /* Rights Red (never orange) */
+    --muted: #6C7884;
+    --line: rgba(255, 255, 255, 0.09);
+    --line-strong: rgba(37, 230, 210, 0.45);
+  }
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  html, body {
+    background: #1a1d22;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    font-family: "IBM Plex Mono", monospace;
+    padding: 40px;
+  }
+
+  /* ----- The export stage: exactly 1200 x 675 (16:9, X/LinkedIn link card) ----- */
+  .stage {
+    position: relative;
+    width: 1200px;
+    height: 675px;
+    background:
+      radial-gradient(120% 140% at 78% -10%, rgba(37,230,210,0.10), transparent 42%),
+      radial-gradient(90% 120% at 30% 120%, rgba(255,58,82,0.12), transparent 46%),
+      linear-gradient(180deg, var(--ink-2), var(--ink));
+    overflow: hidden;
+    color: var(--paper);
+    isolation: isolate;
+  }
+
+  /* faint engineering grid */
+  .stage::before {
+    content: "";
+    position: absolute; inset: 0;
+    background-image:
+      linear-gradient(var(--line) 1px, transparent 1px),
+      linear-gradient(90deg, var(--line) 1px, transparent 1px);
+    background-size: 48px 48px;
+    -webkit-mask-image: radial-gradient(120% 100% at 50% 30%, #000 55%, transparent 100%);
+            mask-image: radial-gradient(120% 100% at 50% 30%, #000 55%, transparent 100%);
+    opacity: 0.5;
+    z-index: 0;
+  }
+
+  /* film grain */
+  .stage::after {
+    content: "";
+    position: absolute; inset: 0;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='2' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.5'/%3E%3C/svg%3E");
+    opacity: 0.05;
+    mix-blend-mode: overlay;
+    pointer-events: none;
+    z-index: 6;
+  }
+
+  .frame {
+    position: relative;
+    z-index: 2;
+    height: 100%;
+    padding: 54px 64px 46px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  /* corner registration / crop ticks */
+  .tick { position: absolute; width: 16px; height: 16px; z-index: 4; opacity: 0.55; }
+  .tick::before, .tick::after { content: ""; position: absolute; background: var(--cyan); }
+  .tick::before { width: 16px; height: 1.5px; top: 0; left: 0; }
+  .tick::after  { width: 1.5px; height: 16px; top: 0; left: 0; }
+  .tick.tr { right: 26px; top: 26px; transform: scaleX(-1); }
+  .tick.tl { left: 26px; top: 26px; }
+  .tick.bl { left: 26px; bottom: 26px; transform: scaleY(-1); }
+  .tick.br { right: 26px; bottom: 26px; transform: scale(-1, -1); }
+
+  /* ---- top meta row ---- */
+  .top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 13px;
+    letter-spacing: 0.26em;
+    text-transform: uppercase;
+    color: var(--muted);
+  }
+  .top .eyebrow {
+    color: var(--cyan);
+    font-weight: 600;
+    display: inline-flex;
+    align-items: center;
+    gap: 12px;
+  }
+  .top .eyebrow .dot {
+    width: 7px; height: 7px; border-radius: 50%;
+    background: var(--cyan);
+    box-shadow: 0 0 12px 1px var(--cyan);
+  }
+  .top .ref { font-weight: 500; }
+
+  /* ---- ledger middle ---- */
+  .body {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: -8px;
+  }
+
+  .ledger-label {
+    font-size: 14px;
+    letter-spacing: 0.32em;
+    text-transform: uppercase;
+    color: var(--paper-dim);
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin-bottom: 14px;
+  }
+  .ledger-label::after {
+    content: "";
+    flex: 1;
+    height: 1px;
+    background: repeating-linear-gradient(90deg, var(--line) 0 6px, transparent 6px 12px);
+  }
+
+  .amount {
+    font-size: 138px;
+    line-height: 0.9;
+    font-weight: 700;
+    letter-spacing: -0.02em;
+    color: var(--red);
+    text-shadow: 0 0 44px rgba(255, 58, 82, 0.32);
+    font-variant-numeric: tabular-nums;
+  }
+  .amount .cur { font-size: 0.62em; vertical-align: 0.10em; margin-right: 0.04em; color: var(--red); opacity: 0.92; }
+
+  .subline {
+    font-family: "Newsreader", Georgia, serif;
+    font-size: 33px;
+    line-height: 1.18;
+    font-weight: 400;
+    color: var(--paper);
+    margin-top: 22px;
+    max-width: 18ch;
+  }
+  .subline em { font-style: italic; color: var(--cyan); }
+
+  /* ---- thesis + footer ---- */
+  .rule {
+    height: 1px;
+    background: linear-gradient(90deg, var(--line-strong), var(--line) 60%, transparent);
+    margin: 26px 0 22px;
+  }
+
+  .thesis {
+    font-family: "Newsreader", Georgia, serif;
+    font-size: 27px;
+    line-height: 1.3;
+    color: var(--paper);
+    font-weight: 500;
+  }
+  .thesis .amp { color: var(--red); font-style: italic; }
+
+  .foot {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    margin-top: 24px;
+  }
+  .byline {
+    font-size: 13.5px;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    color: var(--muted);
+  }
+  .byline b { color: var(--paper); font-weight: 600; }
+
+  .brand { display: flex; align-items: center; gap: 13px; }
+  .brand .url {
+    font-size: 14px;
+    letter-spacing: 0.14em;
+    color: var(--paper);
+    text-transform: lowercase;
+  }
+  .smark {
+    width: 38px; height: 38px;
+    border: 1.5px solid var(--cyan);
+    display: grid; place-items: center;
+    font-family: "Newsreader", serif;
+    font-weight: 600;
+    font-size: 22px;
+    color: var(--cyan);
+    box-shadow: 0 0 16px rgba(37,230,210,0.18), inset 0 0 14px rgba(37,230,210,0.08);
+  }
+
+  /* screenshot helper note (not part of the card) */
+  .note {
+    position: fixed; bottom: 14px; left: 0; right: 0;
+    text-align: center; color: #8a909a; font-size: 12px; letter-spacing: 0.04em;
+  }
+  .note b { color: #cfd3da; }
+  @media print { .note { display: none; } html, body { background: #fff; } }
+</style>
+</head>
+<body>
+  <div class="stage" id="card">
+    <span class="tick tl"></span><span class="tick tr"></span>
+    <span class="tick bl"></span><span class="tick br"></span>
+
+    <div class="frame">
+      <div class="top">
+        <span class="eyebrow"><span class="dot"></span>Tokenmaxxing</span>
+        <span class="ref">Suede Labs AI · Field Note No. 05</span>
+      </div>
+
+      <div class="body">
+        <div class="ledger-label">Total AI charges — one month</div>
+        <div class="amount"><span class="cur">$</span>500,000,000</div>
+        <div class="subline">Spent <em>by accident.</em> Someone forgot to set a usage limit.</div>
+        <div class="rule"></div>
+        <div class="thesis">The biggest breakthrough of our lives. <span class="amp">And</span> a historic bubble.</div>
+      </div>
+
+      <div class="foot">
+        <div class="byline">Jason Colapietro · <b>Johnny Suede</b></div>
+        <div class="brand">
+          <span class="url">suedeai.ai</span>
+          <span class="smark">S</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="note">Screenshot the card at <b>1200×675</b> (⌘⇧4 → space → click the card on macOS). Swap the <b>S</b> box for your real S-mark SVG, and adjust hexes to <b>suede-home/DESIGN.md</b> if needed.</div>
+</body>
+</html>

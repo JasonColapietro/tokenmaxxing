@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://jasoncolapietro.github.io/tokenmaxxing/sitemap.xml

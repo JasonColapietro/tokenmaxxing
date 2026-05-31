@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  <url>
+    <loc>https://jasoncolapietro.github.io/tokenmaxxing/</loc>
+    <lastmod>2026-05-31</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://jasoncolapietro.github.io/tokenmaxxing/assets/tokenmaxxing-card.png</image:loc>
+      <image:title>Tokenmaxxing: a company spent $500,000,000 on AI in one month, by accident</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://jasoncolapietro.github.io/tokenmaxxing/assets/tokenmaxxing-quote.png</image:loc>
+      <image:title>The circular money: the clouds fund the labs, the labs rent the clouds</image:title>
+    </image:image>
+  </url>
+</urlset>

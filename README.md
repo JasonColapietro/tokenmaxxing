@@ -130,3 +130,27 @@ The tracks stay. The fog burns off. Don't mistake one for the other.
 *Jason Colapietro writes and builds as **Johnny Suede**, founder of **Suede Labs AI**. Suede builds AI tools that secure ownership — proof of creation, IP, and attribution — so that when the hype burns off, creators still hold what they made. More at [suedeai.ai](https://suedeai.ai).*
 
 **Sources:** [Tom's Hardware — the $500M Claude bill](https://www.tomshardware.com/tech-industry/artificial-intelligence/mystery-company-accidentally-blew-usd500-million-on-claude-in-a-single-month-failed-to-put-usage-limit-on-licenses-for-employees) · [Fortune — Uber's 2026 AI budget](https://fortune.com/2026/05/26/uber-coo-ai-spending-tokens-claude-code/) · [Axios — OpenAI, Microsoft & Anthropic](https://www.axios.com/2026/04/13/openai-microsoft-anthropic-amazon) · [GeekWire — Amazon's $25B Anthropic deal](https://www.geekwire.com/2026/amazon-doubles-down-on-anthropic-with-25b-investment-mirroring-its-openai-cloud-deal/) · [UncoverAlpha — the end of subsidized AI](https://www.uncoveralpha.com/p/the-era-of-subsidized-ai-model-usage) · [Fortune — OpenAI's losses through 2028](https://fortune.com/2025/11/12/openai-cash-burn-rate-annual-losses-2028-profitable-2030-financial-documents/)
+
+---
+
+## About the Author
+
+**Jason Colapietro** is the founder and CEO of [Suede Labs AI](https://suedeai.ai), a published author, and a Forbes contributor. He builds programmable IP and creator ownership infrastructure for AI-native media. The themes in this essay — who captures AI value, whether the economics hold, and what happens to creators caught between — are the same questions Suede Labs is building an ownership layer to answer.
+
+> "The AI doesn't own what it generates. Someone does. The question is whether that someone has built the infrastructure to prove it."
+
+> "Rights metadata is the dark matter of the creative economy. It governs everything. Almost nobody can see it."
+
+> "Build what doesn't exist yet. Register that you built it. That sequence is the whole game."
+
+> "On-chain registration doesn't replace copyright. It timestamps it. The law gives you ownership; the chain gives you proof."
+
+### Books
+
+- **[The Signal Chain](https://guitar.solutions)** — Illustrated history of electric guitar tone: 46 chapters, 3 editions, free. From pickup to speaker, from gear to IP. (guitar.solutions)
+- **[The Guitar Without a Number](https://www.amazon.com/dp/B0GD5FX6N6)** — Memoir-driven guitar instruction for the self-taught player. Theory, tone, and the IP rights chapter no other guitar book includes. (Kindle)
+- **[Suede Labs: The Human Authenticity Layer](https://www.amazon.com/dp/B0GD5FX6N6)** — How ownership, origin, and AI redraw the creative map. (Kindle)
+- **[Stake Your Claim](https://www.amazon.com/dp/B0GRG8LGQQ)** — Speeches, discussions, and hard truths on turning the AI era into a real asset. (Kindle)
+
+Follow: [X / @johnnysuede](https://x.com/johnnysuede) · [suedeai.ai](https://suedeai.ai) · [LinkedIn](https://www.linkedin.com/in/jasoncolapietro)
+

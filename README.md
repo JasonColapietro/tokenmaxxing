@@ -1,3 +1,5 @@
+<!-- This essay body is hand-mirrored in index.html's <div class="prose"> block. Keep both in sync when editing either. -->
+
 # Tokenmaxxing: A Company Spent $500,000,000 on AI in One Month — By Accident
 
 ![Total AI charges, one month: $500,000,000 — spent by accident](assets/tokenmaxxing-card.png)

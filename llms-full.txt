@@ -96,7 +96,7 @@ That report is the line Uber’s COO said he could not yet draw. Drawing it is t
 
 ## The platforms underneath the work
 
-A client buying agent work should know what sits underneath it. Suede AI is a member of [Claude for Startups, Anthropic’s startup program](https://seo.suedeai.ai/evidence#claude-for-startups), a member of [Google Cloud Partner Advantage](https://seo.suedeai.ai/evidence#google-cloud) through JC Investment Group LLC, and was accepted into the Stripe Startups program on July 31, 2026. Jason also holds [21 earned course credentials across eight providers](https://seo.suedeai.ai/evidence#training-credentials), including nine Claude Academy and Anthropic badges such as Building with the Claude API and Model Context Protocol: Advanced topics, plus 17 Microsoft Learn achievements that include the “Develop AI agents on Azure” learning-path trophy.
+A client buying agent work should know what sits underneath it. Suede AI is a member of [Claude for Startups, Anthropic’s startup program](https://seo.suedeai.ai/evidence#claude-for-startups), a member of [Google Cloud Partner Advantage](https://seo.suedeai.ai/evidence#google-cloud) through JC Investment Group LLC, and was accepted into the Stripe Startups program on July 31, 2026. Jason also holds [21 earned individual course credentials across eight providers](https://seo.suedeai.ai/evidence#training-credentials), including nine Claude Academy and Anthropic badges such as Building with the Claude API and Model Context Protocol: Advanced topics, plus 17 Microsoft Learn training achievements that include the “Develop AI agents on Azure” learning-path trophy.
 
 ## Where a pricing conversation starts
 
@@ -120,9 +120,9 @@ Carry one question out of the essay into everything else: when the spending gets
 
 ## The ownership thread: Stake Your Claim
 
-The essay ends on ownership. Jason argues that the durable question after the bubble is not how many tokens you burned, but what you created and whether you can prove it is yours. [Stake Your Claim](https://www.amazon.com/dp/B0GRG8LGQQ) picks up exactly there. Its full title describes it as speeches, discussions and hard truths on turning the AI onslaught into a real asset, autonomous agents, and building generational wealth as a creative.
+The essay ends on ownership. Jason argues that the durable question after the bubble is not how many tokens you burned, but what you created and whether you can prove it is yours. [Stake Your Claim](https://www.amazon.com/dp/B0GRG8LGQQ) picks up exactly there. It collects speeches, discussions and hard truths on turning the AI era into a real asset.
 Read it after the essay if the bubble half of the argument hit hardest. Stake Your Claim is the answer to “so what do I do about it?” for an individual: what to own, what to register and what to build when generation itself becomes cheap.
-Two companion books deepen this thread. [The Human Authenticity Layer](https://www.amazon.com/dp/B0GD5FX6N6) looks at how ownership, origin and AI redraw the creative map, and [Proof as Infrastructure](https://www.amazon.com/dp/B0GMB2VLXQ) treats provenance as something you build rather than something you assert. For a free, shorter read in the same vein, try [The Screenshot](https://seo.suedeai.ai/book).
+Two companion books deepen this thread. [The Human Authenticity Layer](https://www.amazon.com/dp/B0GD5FX6N6) looks at how ownership, origin and AI redraw the creative map, and [Proof as Infrastructure](https://www.amazon.com/dp/B0GMB2VLXQ) treats provenance as something you build rather than something you assert. For a shorter read in the same vein, try [The Screenshot](https://seo.suedeai.ai/book).
 
 ## The operator thread: The Claude Code Bible and Codex in Production
 

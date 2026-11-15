@@ -152,15 +152,15 @@ URL: https://jasoncolapietro.github.io/tokenmaxxing/notes/ai-vendor-overpromisin
 Published: 2026-11-15
 Author: Jason Colapietro, Founder and CEO, Suede AI
 
-A vendor walks into a law office off Palmetto Park Road in Boca Raton with a demo that drafts a client letter in eight seconds. The partners are impressed, the contract runs twelve months, and nobody asks what happens when the demo meets the firm’s real files. That gap between the demo and the deployment is where most AI overpromising lives.
-Jason Colapietro wrote the [Tokenmaxxing essay](https://jasoncolapietro.github.io/tokenmaxxing/) about spending that nobody can connect to value, at the scale of a reported $500 million monthly AI bill. Overpromising is the sales-side twin of that problem: a vendor who promises more than the technology delivers is setting you up for an invoice you cannot explain later. This checklist is the one Jason Colapietro and the Suede team use when clients forward us a proposal for a second opinion. It is written for owners and office managers in Boca Raton and Delray Beach, where law firms, wealth managers, medical practices and the restaurants along Atlantic Avenue all draw a steady stream of AI pitches, but it works anywhere.
+Picture a vendor who walks into a law office off Palmetto Park Road in Boca Raton with a demo that drafts a client letter in eight seconds. The partners are impressed, the contract runs twelve months, and nobody asks what happens when the demo meets the firm’s real files. That gap between the demo and the deployment is where most AI overpromising lives.
+Jason Colapietro wrote the [Tokenmaxxing essay](https://jasoncolapietro.github.io/tokenmaxxing/) about spending that nobody can connect to value, at the scale of a reported $500 million monthly AI bill. Overpromising is the sales-side twin of that problem: a vendor who promises more than the technology delivers is setting you up for an invoice you cannot explain later. Jason Colapietro and the Suede team wrote this checklist for buyers who want a second opinion on an AI proposal before they sign. It is written for owners and office managers in Boca Raton and Delray Beach, where law firms, wealth managers, medical practices and the restaurants along Atlantic Avenue all draw a steady stream of AI pitches, but it works anywhere.
 
 ## Red flags in the pitch itself
 
 **1. A guaranteed result in search or AI answers.** No one controls what Google, ChatGPT or Perplexity says. A vendor can improve the odds that your business is cited, and can measure it, but “page one in 30 days” or “ChatGPT will recommend you” is a sales line. Ask how they will measure citations before and after, and what they do if the number does not move.
 **2. Accuracy numbers with no test set.** “98% accurate” means nothing until you know accurate on what. Ask for the evaluation: how many sample tasks, drawn from where, graded by whom. A Delray Beach property manager should want an agent tested on real lease questions, not on the vendor’s tidy examples. Our sister site Agentix walks through [how to grade an AI agent before you deploy it](https://agentix.suedeai.ai/notes/grade-an-ai-agent-before-you-deploy), and it is a fair standard to hold any vendor to.
 **3. “Fully autonomous” for work that carries liability.** A medical intake form, a filing deadline or a trust account reconciliation needs a human approval step. A vendor who sells the removal of that step as a feature is selling you risk.
-**4. A demo that never touches your data.** The fastest test of a pitch is to hand over ten real, anonymized examples and watch. Jason Colapietro calls this the ten-file test, and vendors who decline it usually know how it would go.
+**4. A demo that never touches your data.** The fastest test of a pitch is to hand over ten real, anonymized examples and watch. Jason Colapietro suggests calling it a ten-file test. A vendor who declines it is telling you how it would go.
 
 ## Red flags in the contract
 
@@ -205,7 +205,7 @@ Published: 2026-11-15
 Author: Jason Colapietro, Founder and CEO, Suede AI
 
 Ninety days is long enough for an AI project to show a result and short enough that a failed one costs a quarter instead of a year. Most small businesses never learn which kind they bought, because nobody wrote down what “working” meant before the tool went live.
-The [Tokenmaxxing essay](https://jasoncolapietro.github.io/tokenmaxxing/) by Jason Colapietro closes on Uber’s COO admitting he could not yet draw the line from the company’s AI spend to the product. That is a candid admission at a company with thousands of engineers. A twelve-person insurance agency in West Palm Beach or a landscaping company in Palm Beach Gardens cannot carry the same uncertainty for long. This scorecard is how Suede AI draws that line for small businesses, on one page. It started as the Suede Labs team’s internal check on its own model spend, and it now goes into every client engagement.
+The [Tokenmaxxing essay](https://jasoncolapietro.github.io/tokenmaxxing/) by Jason Colapietro closes on Uber’s COO admitting he could not yet draw the line from the company’s AI spend to the product. That is a candid admission at a company with thousands of engineers. A twelve-person insurance agency in West Palm Beach or a landscaping company in Palm Beach Gardens cannot carry the same uncertainty for long. This scorecard is the one-page method Suede AI recommends for drawing that line in a small business. Suede AI (formerly Suede Labs) wrote it for owners who want a plain answer by day 90.
 
 ## Week zero: measure before anything goes live
 
@@ -214,7 +214,7 @@ Jason Colapietro is strict about this step because it is the one most often skip
 
 ## The five lines on the scorecard
 
-Every Suede engagement reports the same five lines, whatever the project:
+The Suede scorecard uses the same five lines, whatever the project:
 
 1. **Outcome metric.** The one number the project exists to move: booked calls, quotes sent, hours of admin removed, citations in AI answers. Chosen in week zero and never swapped mid-quarter.
 2. **Time recovered.** Staff hours per week no longer spent on the task, multiplied by a loaded hourly cost. Count only time that was actually reassigned to other work.
@@ -232,7 +232,7 @@ Two rules keep the figure honest. Count only changes that show up against the we
 
 **Day 30: is it running safely?** The outcome metric is usually noisy this early. The questions are whether the quality rate is above 80%, whether any risk events occurred, and whether spending stayed under the cap. Fix or stop here; never wait until day 90 to deal with a safety problem.
 **Day 60: is the outcome moving?** Compare the outcome metric to the baseline. A flat line at day 60 does not end the project, but it should trigger one specific change, such as a narrower scope, a better prompt or a different handoff point, rather than a vague plan to keep watching.
-**Day 90: expand, adjust or cut.** If ROI is positive and the quality rate held, widen the scope or add a second workflow. If ROI is near zero but the outcome is trending up, run one more 30-day cycle with a written target. If ROI is negative, cut the project and keep the lessons. Cutting is the method working, not the business failing. Jason Colapietro applies the same rule to Suede’s own experiments.
+**Day 90: expand, adjust or cut.** If ROI is positive and the quality rate held, widen the scope or add a second workflow. If ROI is near zero but the outcome is trending up, run one more 30-day cycle with a written target. If ROI is negative, cut the project and keep the lessons. Cutting is the method working, not the business failing. Jason Colapietro’s point is that the rule only works if it also applies to the projects you are most excited about.
 
 ## Picking a first workflow worth scoring
 
@@ -245,7 +245,7 @@ For buyers comparing providers, our third-party listings carry dates and categor
 
 ## Start your own scorecard this week
 
-Copy the five lines into a spreadsheet, spend this week on the baseline, and put three dates on the calendar. If you want help choosing the workflow or setting up the baseline, the [Suede AI assessment](https://suedeai.agency/assessment) from [Suede AI’s West Palm Beach SEO, GEO and web practice](https://suedeai.agency/) starts exactly there. You can read how Jason approaches measurement across his companies and books on the [Jason Colapietro founder page](https://suedeai.ai/founder).
+Copy the five lines into a spreadsheet, spend this week on the baseline, and put three dates on the calendar. If you want the Suede team to help choose the workflow or set up the baseline, the [Suede AI assessment](https://suedeai.agency/assessment) from [Suede AI’s West Palm Beach SEO, GEO and web practice](https://suedeai.agency/) starts exactly there. You can read how Jason approaches measurement across his companies and books on the [Jason Colapietro founder page](https://suedeai.ai/founder).
 
 ---
 

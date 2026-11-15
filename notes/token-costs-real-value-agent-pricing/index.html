@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Token Costs, Real Value: How Suede AI Prices Agent Work</title>
+<meta name="description" content="Why Suede AI prices agent work by deliverable instead of reselling tokens: build, run and improve, hard spending caps, model routing and cost per task.">
+<meta name="author" content="Jason Colapietro">
+<meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1">
+<link rel="canonical" href="https://jasoncolapietro.github.io/tokenmaxxing/notes/token-costs-real-value-agent-pricing/">
+<link rel="author" href="https://suedeai.ai/founder">
+<meta property="og:type" content="article">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="Tokenmaxxing by Jason Colapietro">
+<meta property="og:title" content="Token Costs, Real Value: How Suede AI Prices Agent Work">
+<meta property="og:description" content="Why Suede AI prices agent work by deliverable instead of reselling tokens: build, run and improve, hard spending caps, model routing and cost per task.">
+<meta property="og:url" content="https://jasoncolapietro.github.io/tokenmaxxing/notes/token-costs-real-value-agent-pricing/">
+<meta property="og:image" content="https://jasoncolapietro.github.io/tokenmaxxing/assets/tokenmaxxing-card.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Tokenmaxxing: total AI charges, one month, $500,000,000, spent by accident.">
+<meta property="article:published_time" content="2026-11-14">
+<meta property="article:modified_time" content="2026-11-15">
+<meta property="article:author" content="https://suedeai.ai/founder">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@AISUEDE">
+<meta name="twitter:creator" content="@johnnysuede">
+<meta name="twitter:title" content="Token Costs, Real Value: How Suede AI Prices Agent Work">
+<meta name="twitter:description" content="Why Suede AI prices agent work by deliverable instead of reselling tokens: build, run and improve, hard spending caps, model routing and cost per task.">
+<meta name="twitter:image" content="https://jasoncolapietro.github.io/tokenmaxxing/assets/tokenmaxxing-card.png">
+<meta name="geo.region" content="US-FL">
+<meta name="geo.placename" content="West Palm Beach, Florida">
+<meta name="theme-color" content="#0A0D12">
+<link rel="icon" href="https://jasoncolapietro.github.io/tokenmaxxing/assets/tokenmaxxing-card.png" type="image/png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;1,6..72,400;1,6..72,500&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../../assets/notes.css">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BlogPosting",
+      "@id": "https://jasoncolapietro.github.io/tokenmaxxing/notes/token-costs-real-value-agent-pricing/#article",
+      "headline": "Token Costs, Real Value: How Suede AI Prices Agent Work for Clients",
+      "description": "Why Suede AI prices agent work by deliverable instead of reselling tokens: build, run and improve, hard spending caps, model routing and cost per task.",
+      "image": "https://jasoncolapietro.github.io/tokenmaxxing/assets/tokenmaxxing-card.png",
+      "datePublished": "2026-11-14",
+      "dateModified": "2026-11-15",
+      "inLanguage": "en",
+      "url": "https://jasoncolapietro.github.io/tokenmaxxing/notes/token-costs-real-value-agent-pricing/",
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://jasoncolapietro.github.io/tokenmaxxing/notes/token-costs-real-value-agent-pricing/"
+      },
+      "isPartOf": {
+        "@id": "https://jasoncolapietro.github.io/tokenmaxxing/notes/#blog"
+      },
+      "author": {
+        "@id": "https://suedeai.ai/founder#person"
+      },
+      "publisher": {
+        "@id": "https://suedeai.ai/#organization"
+      },
+      "keywords": [
+        "AI agent pricing",
+        "token costs",
+        "agent development cost",
+        "Suede AI pricing model",
+        "West Palm Beach AI agents",
+        "cost per task"
+      ],
+      "wordCount": 883,
+      "about": [
+        {
+          "@type": "Place",
+          "name": "West Palm Beach, Florida"
+        },
+        {
+          "@type": "Place",
+          "name": "Jupiter, Florida"
+        }
+      ],
+      "spatialCoverage": [
+        {
+          "@type": "Place",
+          "name": "West Palm Beach, Florida"
+        },
+        {
+          "@type": "Place",
+          "name": "Jupiter, Florida"
+        },
+        {
+          "@type": "AdministrativeArea",
+          "name": "Palm Beach County, Florida"
+        }
+      ],
+      "breadcrumb": {
+        "@id": "https://jasoncolapietro.github.io/tokenmaxxing/notes/token-costs-real-value-agent-pricing/#breadcrumb"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://jasoncolapietro.github.io/tokenmaxxing/notes/token-costs-real-value-agent-pricing/#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Tokenmaxxing",
+          "item": "https://jasoncolapietro.github.io/tokenmaxxing/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Notes",
+          "item": "https://jasoncolapietro.github.io/tokenmaxxing/notes/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Token Costs, Real Value: How Suede AI Prices Agent Work for Clients",
+          "item": "https://jasoncolapietro.github.io/tokenmaxxing/notes/token-costs-real-value-agent-pricing/"
+        }
+      ]
+    }
+  ]
+}
+</script>
+</head>
+<body>
+<div class="grain"></div>
+<div class="wrap">
+  <nav class="topbar" aria-label="Site"><a href="https://jasoncolapietro.github.io/tokenmaxxing/">Tokenmaxxing</a><span class="nav-r"><a href="https://jasoncolapietro.github.io/tokenmaxxing/notes/" class="cy">Notes</a><a href="https://suedeai.ai">suedeai.ai</a></span></nav>
+
+  <nav class="crumbs" aria-label="Breadcrumb"><a href="https://jasoncolapietro.github.io/tokenmaxxing/">Tokenmaxxing</a> <span>/</span> <a href="https://jasoncolapietro.github.io/tokenmaxxing/notes/">Notes</a></nav>
+  <article>
+  <div class="eyebrow"><span class="dot"></span>Suede AI Notes</div>
+  <h1 class="title">Token Costs, Real Value: How Suede AI Prices Agent Work for Clients</h1>
+  <p class="subtitle">Jason Colapietro on keeping agent engagements on the right side of the tokenmaxxing line: price the finished task, cap the meter, report the line from cost to value.</p>
+  <div class="byline">By <a href="https://suedeai.ai/founder" rel="author"><b>Jason Colapietro</b></a>, Founder and CEO, Suede AI &middot; West Palm Beach, FL &middot; <time datetime="2026-11-14">November 14, 2026</time></div>
+  <div class="prose">
+<p>A token costs a fraction of a cent. An agent that runs for an afternoon can burn millions of them. That gap is why &ldquo;what will this cost?&rdquo; is the hardest question a client asks Suede AI, and why we never answer it with a per-token rate card.</p>
+<p>This note explains how Suede prices agent work, using the same lens Jason Colapietro applies to the AI economy in the <a href="../../">Tokenmaxxing essay</a>. The essay asks whether anyone can draw a line from AI spend to delivered value. Our pricing model exists to draw that line for every client.</p>
+
+<h2>Why we do not resell tokens</h2>
+<p>The essay describes what happens when consumption becomes the goal. Uber built a leaderboard that ranked teams by tokens burned, per-engineer costs reportedly ran $500 to $2,000 a month, and a full year&rsquo;s AI coding budget was gone in four months. Its COO then said the link between that spend and anything riders would notice &ldquo;is not there yet.&rdquo;</p>
+<p>An agency that marks up tokens has the same broken incentive in miniature: it earns more when its agents work less efficiently. Suede AI prices the deliverable and treats model usage as a cost we manage on the client&rsquo;s behalf and report in the open. The meter is an input we work to shrink, not a product we sell.</p>
+
+<h2>The three parts of every agent engagement</h2>
+<p>Every agent project Suede scopes breaks into three parts, and each is priced on its own terms.</p>
+<p><strong>Build.</strong> Designing the workflow, writing the tools, wiring the integrations and testing the failure cases. This is fixed-scope engineering against a written spec, the discipline Jason Colapietro documents in <a href="https://www.amazon.com/dp/B0HHTMJWB4">The Claude Code Bible</a> and <a href="https://www.amazon.com/dp/B0HHTF3LG1">Codex in Production</a>.</p>
+<p><strong>Run.</strong> Model calls, hosting and monitoring once the agent is live. This is the metered part, and it is where the caps live.</p>
+<p><strong>Improve.</strong> A scheduled review against the outcome metric. Is the agent still doing the job, and is it doing it for less this month than last month?</p>
+<p>Splitting the three keeps a client from paying engineering rates for compute, or paying compute prices for engineering that never got done.</p>
+
+<h2>Caps first, estimates second</h2>
+<p>Before an agent touches client data, Suede AI sets a hard spending ceiling on every key it uses, with alerts well below the ceiling. The reported $500 million accident in the essay came from one missing setting. We treat that setting as part of the build, not an afterthought.</p>
+<p>Estimates come from a pilot rather than a guess. We run the agent on a real sample of the client&rsquo;s work, measure tokens per completed task, multiply by expected volume and add headroom. The client sees the cost per finished task, which is a number a business owner in West Palm Beach or Jupiter can compare directly to the cost of doing the same task by hand. If the agent is not cheaper or better per task, the honest answer is not to build it, and we say so.</p>
+
+<h2>Routing each step to the cheapest model that passes</h2>
+<p>Not every step needs a frontier model. Classification, extraction and formatting often run well on smaller models, while planning and reasoning steps get the larger ones. Suede keeps evaluation cases for each step, so switching a step to a cheaper model is a tested change instead of a hope.</p>
+<p>That habit comes from contributing to other people&rsquo;s code. Jason Colapietro has <a href="https://github.com/search?q=is%3Apr+author%3AJasonColapietro+is%3Amerged+-user%3AJasonColapietro+-user%3ASuede-AI&type=pullrequests">54 pull requests merged across 46 open-source repositories he does not maintain</a>, including Jest, Adobe React Spectrum, Backstage and the Polkadot SDK. Each of those passed a maintainer&rsquo;s test suite before it landed. Agent steps get the same treatment: no test, no swap. If you want an outside score for an agent you already run, <a href="https://agentix.suedeai.ai/notes">Agentix grading notes</a> walk through how we evaluate agent behavior.</p>
+
+<h2>What a client receives every month</h2>
+<ul>
+<li><strong>Tasks completed and cost per task</strong>, compared with the prior month.</li>
+<li><strong>Cap headroom</strong> on every key, with any alert that fired.</li>
+<li><strong>Changes made</strong>: model swaps, prompt revisions and new evaluation cases.</li>
+<li><strong>Failures flagged for human review</strong>, with what we changed in response.</li>
+</ul>
+<p>That report is the line Uber&rsquo;s COO said he could not yet draw. Drawing it is the job.</p>
+
+<h2>The platforms underneath the work</h2>
+<p>A client buying agent work should know what sits underneath it. Suede AI is a member of <a href="https://seo.suedeai.ai/evidence#claude-for-startups">Claude for Startups, Anthropic&rsquo;s startup program</a>, a member of <a href="https://seo.suedeai.ai/evidence#google-cloud">Google Cloud Partner Advantage</a> through JC Investment Group LLC, and was accepted into the Stripe Startups program on July 31, 2026. Jason also holds <a href="https://seo.suedeai.ai/evidence#training-credentials">21 earned course credentials across eight providers</a>, including nine Claude Academy and Anthropic badges such as Building with the Claude API and Model Context Protocol: Advanced topics, plus 17 Microsoft Learn achievements that include the &ldquo;Develop AI agents on Azure&rdquo; learning-path trophy.</p>
+
+<h2>Where a pricing conversation starts</h2>
+<p>Suede AI was founded in 2024 by Jason Colapietro in West Palm Beach, Florida, and serves businesses across Palm Beach County, from Jupiter and Tequesta down to Boca Raton. Every engagement starts the same way: one workflow, one outcome metric and one cap. Book the <a href="https://suedeai.agency/assessment">Suede AI assessment</a> to find out which workflow in your business is worth an agent, and read about the engineer behind the pricing model on the <a href="https://suedeai.ai/founder">Jason Colapietro founder page</a>.</p>
+  </div>
+  </article>
+  <div class="endbar">
+    <a class="cta" href="https://suedeai.agency/assessment">Book the Suede AI assessment &rarr;</a>
+    <p class="more">More notes: <a href="https://jasoncolapietro.github.io/tokenmaxxing/notes/ai-bubble-palm-beach-county-small-business/">What an AI Bubble Means for Palm Beach County Small Businesses Buying AI Services</a> &middot; <a href="https://jasoncolapietro.github.io/tokenmaxxing/notes/revolution-vs-bubble-reading-guide/">Jason Colapietro on Revolution vs Bubble: A Reading Guide to His Books</a></p>
+  </div>
+
+  <aside class="builtby" aria-labelledby="builtby-h">
+    <p class="builtby-label" id="builtby-h">Built by Suede AI in West Palm Beach, Florida</p>
+    <p class="builtby-copy">Suede AI is the agentic platform company founded in 2024 by engineer Jason Colapietro in West Palm Beach. We build websites, AI search visibility (SEO and GEO) and agent systems for businesses across Palm Beach County, from Jupiter to Boca Raton.</p>
+    <ul class="builtby-links">
+      <li><a href="https://suedeai.agency/">Suede AI agency: West Palm Beach SEO, GEO and web</a></li>
+      <li><a href="https://suedeai.ai/">Suede AI platform</a></li>
+      <li><a href="https://suedeai.ai/founder">Jason Colapietro, Founder and CEO</a></li>
+      <li><a href="https://jasoncolapietro.com/">jasoncolapietro.com</a></li>
+      <li><a href="https://jupitersocialfl.com/">Jupiter Social FL magazine</a></li>
+    </ul>
+    <p class="builtby-label">More from Suede AI</p>
+    <ul class="builtby-links">
+      <li><a href="https://agentix.suedeai.ai/notes">Agentix agent grading notes</a></li>
+      <li><a href="https://optimize.suedeai.ai/notes">Suede Scan AI readiness notes</a></li>
+      <li><a href="https://docs.suedeai.ai/notes">Suede developer docs notes</a></li>
+      <li><a href="https://podcast.suedeai.ai/notes/">Suede podcast notes</a></li>
+      <li><a href="https://signal.suedeai.ai/articles">Suede Signal articles</a></li>
+    </ul>
+  </aside>
+  <div class="meta-links">&copy; 2026 Jason Colapietro &middot; <a href="https://jasoncolapietro.github.io/tokenmaxxing/">Tokenmaxxing essay</a> &middot; <a href="https://jasoncolapietro.github.io/tokenmaxxing/notes/">Notes</a> &middot; <a href="https://github.com/JasonColapietro/tokenmaxxing">Source on GitHub</a></div>
+</div>
+</body>
+</html>

@@ -1,0 +1,30 @@
+# Tokenmaxxing
+
+> Tokenmaxxing: Is AI a bubble? An essay by Jason Colapietro, Founder and CEO of Suede AI, arguing that AI is both the most transformative technology of our lifetime and a historic bubble, plus follow-up notes from Suede AI in West Palm Beach, Florida.
+
+Author: Jason Colapietro (https://suedeai.ai/founder#person). Publisher: Suede AI (https://suedeai.ai/#organization). Suede AI is an agentic platform company founded in 2024 in West Palm Beach, Florida, serving Palm Beach County from Jupiter to Boca Raton.
+
+## Essay
+
+- [Tokenmaxxing: A company spent $500,000,000 on AI in one month, by accident](https://jasoncolapietro.github.io/tokenmaxxing/): the receipts, the case for the revolution, the case for the bubble, and the circular money. Originally on Substack: https://jasoncolapietro.substack.com/p/a-company-spent-500000000-on-ai-in
+
+## Notes
+
+- [Tokenmaxxing Notes index](https://jasoncolapietro.github.io/tokenmaxxing/notes/)
+- [What an AI Bubble Means for Palm Beach County Small Businesses Buying AI Services](https://jasoncolapietro.github.io/tokenmaxxing/notes/ai-bubble-palm-beach-county-small-business/): Jason Colapietro and Suede AI on buying AI services in Palm Beach County during a bubble: four vendor questions, spending caps, and where AI pays off.
+- [Token Costs, Real Value: How Suede AI Prices Agent Work for Clients](https://jasoncolapietro.github.io/tokenmaxxing/notes/token-costs-real-value-agent-pricing/): Why Suede AI prices agent work by deliverable instead of reselling tokens: build, run and improve, hard spending caps, model routing and cost per task.
+- [Jason Colapietro on Revolution vs Bubble: A Reading Guide to His Books](https://jasoncolapietro.github.io/tokenmaxxing/notes/revolution-vs-bubble-reading-guide/): A reading guide to Jason Colapietro's books on AI as revolution and bubble: Stake Your Claim, The Claude Code Bible and Codex in Production, with three paths.
+
+## Suede AI
+
+- [Suede AI agency, West Palm Beach SEO, GEO and web](https://suedeai.agency/)
+- [Suede AI assessment](https://suedeai.agency/assessment)
+- [Suede AI](https://suedeai.ai/)
+- [Jason Colapietro founder page](https://suedeai.ai/founder)
+- [jasoncolapietro.com](https://jasoncolapietro.com/)
+- [Jupiter Social FL](https://jupitersocialfl.com/)
+- [Evidence for every claim](https://seo.suedeai.ai/evidence)
+
+## Optional
+
+- [Full text of the essay and notes](https://jasoncolapietro.github.io/tokenmaxxing/llms-full.txt)

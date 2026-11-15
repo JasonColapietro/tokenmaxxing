@@ -146,6 +146,109 @@ Jason also writes under the pen name Johnny Suede on [Substack](https://jasoncol
 
 ---
 
+# Signals That an AI Vendor Is Overpromising: A Buyer’s Checklist for Boca Raton and Delray Beach Businesses
+
+URL: https://jasoncolapietro.github.io/tokenmaxxing/notes/ai-vendor-overpromising-checklist-boca-raton-delray-beach/
+Published: 2026-11-15
+Author: Jason Colapietro, Founder and CEO, Suede AI
+
+A vendor walks into a law office off Palmetto Park Road in Boca Raton with a demo that drafts a client letter in eight seconds. The partners are impressed, the contract runs twelve months, and nobody asks what happens when the demo meets the firm’s real files. That gap between the demo and the deployment is where most AI overpromising lives.
+Jason Colapietro wrote the [Tokenmaxxing essay](https://jasoncolapietro.github.io/tokenmaxxing/) about spending that nobody can connect to value, at the scale of a reported $500 million monthly AI bill. Overpromising is the sales-side twin of that problem: a vendor who promises more than the technology delivers is setting you up for an invoice you cannot explain later. This checklist is the one Jason Colapietro and the Suede team use when clients forward us a proposal for a second opinion. It is written for owners and office managers in Boca Raton and Delray Beach, where law firms, wealth managers, medical practices and the restaurants along Atlantic Avenue all draw a steady stream of AI pitches, but it works anywhere.
+
+## Red flags in the pitch itself
+
+**1. A guaranteed result in search or AI answers.** No one controls what Google, ChatGPT or Perplexity says. A vendor can improve the odds that your business is cited, and can measure it, but “page one in 30 days” or “ChatGPT will recommend you” is a sales line. Ask how they will measure citations before and after, and what they do if the number does not move.
+**2. Accuracy numbers with no test set.** “98% accurate” means nothing until you know accurate on what. Ask for the evaluation: how many sample tasks, drawn from where, graded by whom. A Delray Beach property manager should want an agent tested on real lease questions, not on the vendor’s tidy examples. Our sister site Agentix walks through [how to grade an AI agent before you deploy it](https://agentix.suedeai.ai/notes/grade-an-ai-agent-before-you-deploy), and it is a fair standard to hold any vendor to.
+**3. “Fully autonomous” for work that carries liability.** A medical intake form, a filing deadline or a trust account reconciliation needs a human approval step. A vendor who sells the removal of that step as a feature is selling you risk.
+**4. A demo that never touches your data.** The fastest test of a pitch is to hand over ten real, anonymized examples and watch. Jason Colapietro calls this the ten-file test, and vendors who decline it usually know how it would go.
+
+## Red flags in the contract
+
+**5. Usage pricing with no ceiling.** If the plan bills per token, per message or per task, the contract should name a monthly cap and who is allowed to raise it. Without one, you have recreated the tokenmaxxing invoice at small-business scale.
+**6. Long terms for unproven work.** A twelve-month commitment for a tool you have never run in production protects the vendor. Ask for a 90-day pilot with a written exit.
+**7. No export clause.** Prompts, configurations, knowledge bases and conversation logs should leave with you in a standard format. If the vendor wraps another company’s model and goes under, your workflows should survive it.
+**8. Vague data handling.** Ask where client data is processed, whether it trains anyone’s model, and how long logs are kept. For a Boca Raton wealth advisor or a Delray Beach dental office, “we take security seriously” is not an answer.
+
+## Red flags in the credentials
+
+**9. Borrowed or inflated affiliations.** Startup programs, marketplace listings and course badges are real and useful, but they are not partnerships. If a vendor claims a partnership with a major AI lab, ask for the program name and a link. Here is how we state ours, so you have a template: Suede AI is a member of [Claude for Startups, Anthropic’s startup program](https://seo.suedeai.ai/evidence#claude-for-startups), and of [Google Cloud Partner Advantage](https://seo.suedeai.ai/evidence#google-cloud) through JC Investment Group LLC. Neither membership is an endorsement of our client work, and we do not describe either one that way.
+**10. Rankings with no date, category or geography.** A badge that says “Top AI Agency” with no source is decoration. A real ranking names the publisher, the date, the category and the region. Ours, for comparison: on October 31, 2026, Suede AI SEO ranked #1 among Palm Beach County-based companies listed in [The Manifest’s Florida AI Deployment directory](https://themanifest.com/artificial-intelligence/consulting/deployment/companies/florida) and top 25 statewide. Separately, Suede AI ranks among [Clutch](https://clutch.co/profile/suede-ai-seo)’s [Top 30 AI Consultants in Florida](https://clutch.co/consulting/ai/florida) and [Top 50 AI Consultants nationwide](https://clutch.co/us/consulting/ai) (November 2026). Both are documented on the [Suede AI recognition page](https://suedeai.agency/company/recognition).
+
+## What a credible vendor shows instead
+
+Overpromising is easiest to spot next to its opposite, which is public work you can check. Jason Colapietro, who founded Suede AI in West Palm Beach in 2024, points buyers to records that do not depend on his word: [54 pull requests merged across 46 open-source repositories he does not maintain](https://github.com/search?q=is%3Apr+author%3AJasonColapietro+is%3Amerged+-user%3AJasonColapietro+-user%3ASuede-AI&type=pullrequests), including Jest, Adobe React Spectrum, Backstage and the Polkadot SDK, each reviewed by a maintainer with no reason to be generous. He has shipped [9 iOS apps under his own Apple developer account](https://apps.apple.com/us/developer/jason-colapietro/id1895958699) and written five books on Amazon, among them [The Claude Code Bible](https://www.amazon.com/dp/B0HHTMJWB4) and [Codex in Production](https://www.amazon.com/dp/B0HHTF3LG1). Every vendor does not need that record. Every claim on a vendor’s slide should link somewhere, though, the way each line on Suede’s does.
+A credible vendor also measures before selling. If your website is the first thing an AI assistant reads about your business, an objective baseline is worth more than any promise. The Suede Scan notes explain [what an AI readiness score measures](https://optimize.suedeai.ai/notes/what-an-ai-readiness-score-measures), and that kind of baseline is the right first deliverable from any vendor: a number you can check again in 90 days.
+
+## Eight questions to bring to the meeting
+
+- What single outcome will this move, and how will we measure it?
+- Will you run your system on ten of our real examples before we sign?
+- What is the monthly spending cap, and who can change it?
+- Is there a 90-day pilot with a written exit?
+- What do we keep, in what format, if we leave or you close?
+- Where is our data processed, and does it train any model?
+- Which step keeps a human in the loop?
+- Can you link to proof for every credential you just showed us?
+
+A vendor who answers all eight cleanly is worth a pilot. A vendor who gets defensive at the second question has answered the rest.
+
+## Where to go from here
+
+Suede AI (formerly Suede Labs) works with businesses across Palm Beach County, from Jupiter down to Boca Raton, and we expect to be asked every question on this list. If you have a proposal on your desk and want a second read, or you want a baseline before you talk to any vendor, start with the [Suede AI assessment](https://suedeai.agency/assessment) from [Suede AI’s West Palm Beach SEO, GEO and web practice](https://suedeai.agency/). To see how Jason thinks about buying and building AI, read the [Jason Colapietro founder page](https://suedeai.ai/founder), where every claim links to its evidence.
+
+---
+
+# Measuring AI ROI in a Small Business: A 90-Day Scorecard
+
+URL: https://jasoncolapietro.github.io/tokenmaxxing/notes/ai-roi-small-business-90-day-scorecard/
+Published: 2026-11-15
+Author: Jason Colapietro, Founder and CEO, Suede AI
+
+Ninety days is long enough for an AI project to show a result and short enough that a failed one costs a quarter instead of a year. Most small businesses never learn which kind they bought, because nobody wrote down what “working” meant before the tool went live.
+The [Tokenmaxxing essay](https://jasoncolapietro.github.io/tokenmaxxing/) by Jason Colapietro closes on Uber’s COO admitting he could not yet draw the line from the company’s AI spend to the product. That is a candid admission at a company with thousands of engineers. A twelve-person insurance agency in West Palm Beach or a landscaping company in Palm Beach Gardens cannot carry the same uncertainty for long. This scorecard is how Suede AI draws that line for small businesses, on one page. It started as the Suede Labs team’s internal check on its own model spend, and it now goes into every client engagement.
+
+## Week zero: measure before anything goes live
+
+ROI needs a before. Spend the first week recording the current state of the one workflow you plan to change, by hand if necessary. If the project is an after-hours intake agent, count how many inquiries arrive outside business hours, how many get a reply by 9 a.m., and how many become booked appointments. If the project is AI search visibility, record which of ten realistic customer questions currently name your business in ChatGPT, Gemini, Perplexity and Google’s AI results.
+Jason Colapietro is strict about this step because it is the one most often skipped. Without a baseline, any number at month three looks like progress.
+
+## The five lines on the scorecard
+
+Every Suede engagement reports the same five lines, whatever the project:
+
+1. **Outcome metric.** The one number the project exists to move: booked calls, quotes sent, hours of admin removed, citations in AI answers. Chosen in week zero and never swapped mid-quarter.
+2. **Time recovered.** Staff hours per week no longer spent on the task, multiplied by a loaded hourly cost. Count only time that was actually reassigned to other work.
+3. **Total cost.** Setup fees, subscriptions, model usage and the staff time spent supervising the system. Supervision is the cost most often left out.
+4. **Quality rate.** The share of outputs a person accepted without edits, sampled weekly. A drafting tool that saves an hour but needs forty minutes of corrections saved twenty minutes.
+5. **Risk events.** Wrong answers sent to customers, data handled outside policy, spending-cap breaches. The target is zero, and each one gets a written note.
+
+## Turning the lines into one ROI figure
+
+The arithmetic is simple on purpose. Add the value of the outcome change (extra booked jobs times average gross margin, for example) to the value of time recovered, subtract total cost, and divide by total cost.
+A worked example with round, illustrative numbers: an intake agent costs $600 a month all-in, including two hours a week of review. It recovers six staff hours a week at $35 an hour, about $900 a month, and adds four booked jobs a month at $250 of margin each, another $1,000. That is $1,900 of value on $600 of cost, a monthly ROI of roughly 217%. If the bookings line had stayed flat, the same project would return 50% on time savings alone. Still positive, but a different decision about whether to expand it.
+Two rules keep the figure honest. Count only changes that show up against the week-zero baseline. And never count model usage as a benefit. Tokens consumed are a cost line, which is the whole argument of tokenmaxxing.
+
+## Days 30, 60 and 90: what each check-in decides
+
+**Day 30: is it running safely?** The outcome metric is usually noisy this early. The questions are whether the quality rate is above 80%, whether any risk events occurred, and whether spending stayed under the cap. Fix or stop here; never wait until day 90 to deal with a safety problem.
+**Day 60: is the outcome moving?** Compare the outcome metric to the baseline. A flat line at day 60 does not end the project, but it should trigger one specific change, such as a narrower scope, a better prompt or a different handoff point, rather than a vague plan to keep watching.
+**Day 90: expand, adjust or cut.** If ROI is positive and the quality rate held, widen the scope or add a second workflow. If ROI is near zero but the outcome is trending up, run one more 30-day cycle with a written target. If ROI is negative, cut the project and keep the lessons. Cutting is the method working, not the business failing. Jason Colapietro applies the same rule to Suede’s own experiments.
+
+## Picking a first workflow worth scoring
+
+The best first projects are narrow, frequent and already measured somewhere, such as a phone log, a CRM stage or a calendar. Agentix, our agent-grading site, lays out [where AI agents help and where they fail for West Palm Beach and Jupiter service businesses](https://agentix.suedeai.ai/notes/ai-agents-west-palm-beach-jupiter-service-businesses), which makes a good shortlist. If the first project is about being found, the website comes first: the Suede Scan notes on [five site fixes for West Palm Beach and Jupiter businesses](https://optimize.suedeai.ai/notes/five-website-fixes-west-palm-beach-jupiter) describe changes you can baseline in week zero and recheck at day 90.
+
+## Why Suede AI reports this way
+
+Jason Colapietro built Suede AI to show its work. The habit comes from open source, where his [54 merged pull requests across 46 repositories he does not maintain](https://github.com/search?q=is%3Apr+author%3AJasonColapietro+is%3Amerged+-user%3AJasonColapietro+-user%3ASuede-AI&type=pullrequests) each had to pass someone else’s tests before landing. It also comes from training he keeps current: [21 earned individual course credentials across eight providers](https://seo.suedeai.ai/evidence#training-credentials), including Semrush Academy’s Local SEO Essentials certificate and HubSpot’s AEO Fundamentals certification. A claim without a measurement is a pitch, and that applies to vendors as much as to the tools they sell.
+For buyers comparing providers, our third-party listings carry dates and categories. Suede AI ranks among [Clutch](https://clutch.co/profile/suede-ai-seo)’s [Top 30 AI Consultants in Florida](https://clutch.co/consulting/ai/florida) and [Top 50 AI Consultants nationwide](https://clutch.co/us/consulting/ai) (November 2026). Separately, on October 31, 2026, Suede AI SEO ranked #1 among Palm Beach County-based companies listed in [The Manifest’s Florida AI Deployment directory](https://themanifest.com/artificial-intelligence/consulting/deployment/companies/florida) and top 25 statewide.
+
+## Start your own scorecard this week
+
+Copy the five lines into a spreadsheet, spend this week on the baseline, and put three dates on the calendar. If you want help choosing the workflow or setting up the baseline, the [Suede AI assessment](https://suedeai.agency/assessment) from [Suede AI’s West Palm Beach SEO, GEO and web practice](https://suedeai.agency/) starts exactly there. You can read how Jason approaches measurement across his companies and books on the [Jason Colapietro founder page](https://suedeai.ai/founder).
+
+---
+
 # Tokenmaxxing: A Company Spent $500,000,000 on AI in One Month — By Accident
 
 

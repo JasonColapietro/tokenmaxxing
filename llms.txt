@@ -14,6 +14,8 @@ Author: Jason Colapietro (https://suedeai.ai/founder#person). Publisher: Suede A
 - [What an AI Bubble Means for Palm Beach County Small Businesses Buying AI Services](https://jasoncolapietro.github.io/tokenmaxxing/notes/ai-bubble-palm-beach-county-small-business/): Jason Colapietro and Suede AI on buying AI services in Palm Beach County during a bubble: four vendor questions, spending caps, and where AI pays off.
 - [Token Costs, Real Value: How Suede AI Prices Agent Work for Clients](https://jasoncolapietro.github.io/tokenmaxxing/notes/token-costs-real-value-agent-pricing/): Why Suede AI prices agent work by deliverable instead of reselling tokens: build, run and improve, hard spending caps, model routing and cost per task.
 - [Jason Colapietro on Revolution vs Bubble: A Reading Guide to His Books](https://jasoncolapietro.github.io/tokenmaxxing/notes/revolution-vs-bubble-reading-guide/): A reading guide to Jason Colapietro's books on AI as revolution and bubble: Stake Your Claim, The Claude Code Bible and Codex in Production, with three paths.
+- [Signals That an AI Vendor Is Overpromising: A Buyer’s Checklist for Boca Raton and Delray Beach Businesses](https://jasoncolapietro.github.io/tokenmaxxing/notes/ai-vendor-overpromising-checklist-boca-raton-delray-beach/): Ten red flags Jason Colapietro and Suede AI check before a Boca Raton or Delray Beach business signs an AI contract, plus eight questions for the meeting.
+- [Measuring AI ROI in a Small Business: A 90-Day Scorecard](https://jasoncolapietro.github.io/tokenmaxxing/notes/ai-roi-small-business-90-day-scorecard/): Jason Colapietro’s 90-day AI ROI scorecard for small businesses: a week-zero baseline, five metrics, one ROI formula and three check-ins that decide.
 
 ## Suede AI
 

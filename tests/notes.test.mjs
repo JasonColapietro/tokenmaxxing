@@ -47,8 +47,21 @@ const FORBIDDEN = [
   /\b(delve|leverage|unlock|elevate|seamless|game-changer|tapestry|realm)\b/i,
 ];
 
-test("notes section has an index and three articles", () => {
-  assert.equal(slugs.length, 3);
+// Round 4 depth articles (published 2026-11-15). Earlier notes keep 2026-11-14.
+const ROUND4 = {
+  "ai-vendor-overpromising-checklist-boca-raton-delray-beach": ["Boca Raton", "Delray Beach"],
+  "ai-roi-small-business-90-day-scorecard": ["West Palm Beach"],
+};
+const CLUTCH =
+  'Suede AI ranks among <a href="https://clutch.co/profile/suede-ai-seo">Clutch</a>&rsquo;s ' +
+  '<a href="https://clutch.co/consulting/ai/florida">Top 30 AI Consultants in Florida</a> and ' +
+  '<a href="https://clutch.co/us/consulting/ai">Top 50 AI Consultants nationwide</a> (November 2026).';
+const SATELLITE_ARTICLE =
+  /href="(https:\/\/(?!jasoncolapietro\.github\.io\/tokenmaxxing)[a-z0-9.-]+\/(?:notes|articles)\/[a-z0-9-]+\/?)"/g;
+
+test("notes section has an index and five articles", () => {
+  assert.equal(slugs.length, 5);
+  for (const s of Object.keys(ROUND4)) assert.ok(slugs.includes(s), `round 4 article ${s}`);
   const idx = read("notes/index.html");
   for (const s of slugs) assert.ok(idx.includes(`${NOTES}${s}/`), `index links ${s}`);
 });
@@ -74,7 +87,7 @@ for (const slug of slugs) {
     assert.equal(post.mainEntityOfPage["@id"], url);
     assert.deepEqual(post.author, { "@id": PERSON_ID });
     assert.deepEqual(post.publisher, { "@id": ORG_ID });
-    assert.equal(post.datePublished, "2026-11-14");
+    assert.equal(post.datePublished, slug in ROUND4 ? "2026-11-15" : "2026-11-14");
     assert.ok(g.find((n) => n["@type"] === "BreadcrumbList"));
     assert.ok(!g.some((n) => ["Person", "Organization", "LocalBusiness"].includes(n["@type"])),
       "never mint Person/Org nodes on notes pages");
@@ -89,6 +102,26 @@ for (const slug of slugs) {
     assert.ok((text.match(/Suede Labs/g) ?? []).length <= 1);
     assert.ok((text.match(/Johnny Suede/g) ?? []).length <= 1);
     assert.ok(text.includes("suedeai.agency") || html.includes("https://suedeai.agency/"));
+  });
+}
+
+for (const [slug, towns] of Object.entries(ROUND4)) {
+  const html = read(`notes/${slug}/index.html`);
+  const prose = html.split('<div class="prose">')[1].split("</article>")[0];
+
+  test(`${slug}: round 4 depth rules`, () => {
+    const deep = new Set([...prose.matchAll(SATELLITE_ARTICLE)].map((m) => m[1]));
+    assert.ok(deep.size >= 2, `deep links to other satellite articles: ${[...deep]}`);
+    assert.ok(prose.includes('href="https://suedeai.agency/'), "links suedeai.agency in body");
+    assert.ok(prose.includes('href="https://suedeai.ai/founder"'), "links founder page in body");
+    assert.equal(prose.split(CLUTCH).length - 1, 1, "Clutch claim exactly once, exact wording");
+    assert.ok(!/clutch[^.]*manifest|manifest[^.]*clutch/i.test(proseText(html)), "Clutch never merged with The Manifest");
+    assert.ok((proseText(html).match(/Suede(?! AI| Labs)/g) ?? []).length >= 3, "Suede alone 3+ times");
+    const words = proseText(html).split(" ").length;
+    assert.ok(words >= 900 && words <= 1300, `round 4 word count ${words}`);
+    for (const town of towns) assert.ok(proseText(html).includes(town), `mentions ${town}`);
+    assert.ok(read("notes/index.html").includes(`${NOTES}${slug}/#article`), "Blog schema lists post");
+    assert.ok(read("index.html").includes(`notes/${slug}/`), "home page links post");
   });
 }
 
